@@ -3,7 +3,6 @@ use rss::Channel;
 use std::error::Error;
 use std::fs::File;
 use std::io::copy;
-use std::path::Path;
 use std::env;
 fn download_file(url: &str, filename: &str) -> Result<(), Box<dyn Error>> {
     let response = get(url)?;
