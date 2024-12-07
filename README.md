@@ -14,7 +14,7 @@
 To build and run Podget, clone the repository and use Cargo, the Rust package manager:
 
 ```bash
-git clone https://github.com/yourusername/podget.git
+git clone https://github.com/brayden-yates/podget.git
 cd podget
 cargo build --release
 ```
